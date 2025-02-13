@@ -16,6 +16,7 @@ public class ContactHelper extends BaseHelper {
     public static final String CONTACT_NAME = "Name";
 
     public ContactHelper(WebDriver driver) {
+
         super(driver);
     }
 

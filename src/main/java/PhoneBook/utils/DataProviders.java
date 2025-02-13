@@ -14,6 +14,16 @@ import static PhoneBook.fw.ContactHelper.CONTACT_NAME;
 
 public class DataProviders {
     @DataProvider
+    public static Object[][] loginDataProvider111111() {
+        return new Object[][]{
+
+                {"katranchik21@gmail.com", "Password@1"},
+                {"katranchik21@gmail.com", "Password@1"},
+                {"katranchik21@gmail.com", "Password@1"}
+
+        };
+    }
+    @DataProvider
     public static Object[][] loginDataProvider() {
         return new Object[][]{
 

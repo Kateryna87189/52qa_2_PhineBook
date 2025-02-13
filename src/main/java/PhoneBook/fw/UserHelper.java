@@ -15,6 +15,7 @@ public class UserHelper extends BaseHelper {
         super(driver);
     }
     Logger logger = LoggerFactory.getLogger(UserHelper.class);
+
     public void typePassword(String password) {
         logger.info("Type password "+ password);
         type(By.name("password"), password);
